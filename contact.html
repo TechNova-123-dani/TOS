@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Contact - Technova</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="preloader"><div class="loader-ball"></div></div>
+<header class="site-header at-top">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">Technova</a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown"><a href="about.html">About ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="company-profile.html">Company Profile</a></li>
+            <li><a href="team.html">Our Team</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="services.html">Services ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="webdev.html">Web Development</a></li>
+            <li><a href="cybersecurity.html">Cybersecurity</a></li>
+            <li><a href="networking.html">Networking</a></li>
+            <li><a href="digitalmarketing.html">Digital Marketing</a></li>
+          </ul>
+        </li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html" class="btn btn-gold">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+<!-- Fullscreen Page Banner -->
+<section class="page-banner" style="background-image: url('images/lab.png');">
+  <div class="overlay"></div>
+  <div class="banner-content">
+    <h1>GET IN TOUCH</h1>
+    <p>Innovating the Future of Business Technology</p>
+  </div>
+</section>
+
+<section class="section" data-aos="fade-up"><div class="container">
+  <h2 class="section-title">Contact</h2>
+  <p>Ready to talk? Send us a message and we’ll reply within 2 business days.</p>
+  <form id="contact-form" class="contact-form">
+    <input type="text" id="name" placeholder="Your name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <textarea id="message" placeholder="Project details" rows="6" required></textarea>
+    <button class="btn btn-gold" type="submit">Send Message</button>
+  </form>
+</div></section>
+
+</main>
+<section class="page-banner" style="background-image: url('images/tech.png');">
+  <div class="overlay"></div>
+  <div class="banner-content">
+    <h1>REACH TECHNOVA ICT SOLUTIONS</h1>
+    <p>Innovating the Future of Business Technology with Us</p>
+  </div>
+</section>
+
+<section class="contact-section" data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-subtitle">We’re here to power your digital transformation journey.</p>
+
+    <form id="contact-form" class="contact-form">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Subject (optional)">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Tell us more about your project..." rows="6" required></textarea>
+      </div>
+
+      <button class="btn btn-gold" type="submit">
+        <span>Send Message</span>
+      </button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h3>About Technova</h3>
+        <p><strong>Technova</strong> is a business technology firm offering web development, cybersecurity, networking and digital marketing services to organizations and SMEs. We build, secure and grow digital products with measurable ROI.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="company-profile.html">Company Profile</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-resources">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><strong>Email:</strong> <a href="mailto:info@technova.org">info@technova.org</a></p>
+        <p><strong>Phone:</strong> +254 700 000 000</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <div class="left"><p>© <span id="year"></span> Technova. All rights reserved.</p></div>
+      <div class="right"><a href="terms.html">Terms</a> <a href="privacy.html">Privacy</a></div>
+    </div>
+  </div>
+</footer>
+<!-- AOS Library -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+
+<button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top">↑</button>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

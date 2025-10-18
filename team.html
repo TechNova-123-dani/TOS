@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Our Team - Technova</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="preloader"><div class="loader-ball"></div></div>
+<header class="site-header at-top">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">Technova</a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown"><a href="about.html">About ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="company-profile.html">Company Profile</a></li>
+            <li><a href="team.html">Our Team</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="services.html">Services ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="webdev.html">Web Development</a></li>
+            <li><a href="cybersecurity.html">Cybersecurity</a></li>
+            <li><a href="networking.html">Networking</a></li>
+            <li><a href="digitalmarketing.html">Digital Marketing</a></li>
+          </ul>
+        </li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html" class="btn btn-gold">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+<!-- Fullscreen Page Banner -->
+<section class="page-banner" style="background-image: url('images/lab.png');">
+  <div class="overlay"></div>
+  <div class="banner-content">
+    <h1>MEAT OUR EXPERTY</h1>
+    <p>Innovating the Future of Business Technology</p>
+  </div>
+</section>
+
+<section class="section team-section" data-aos="fade-up">
+  <div class="container">
+    <h2 class="section-title">Meet the Technova Team</h2>
+    <p class="muted">Driven by innovation, collaboration, and excellence.</p>
+
+    <div class="swiper team-swiper">
+      <div class="swiper-wrapper">
+        <!-- Daniel -->
+        <div class="swiper-slide team-member" data-aos="flip-left">
+          <img src="images/daniel.jpg" alt="Daniel Njuguna">
+          <h4>Daniel Njuguna</h4>
+          <p class="role">Co-Founder & CEO</p>
+          <p>Daniel is a software engineer and product architect passionate about digital transformation in Africa. He leads Technova’s innovation strategy and drives project execution across technology and design.</p>
+        </div>
+
+        <!-- Moses -->
+        <div class="swiper-slide team-member" data-aos="flip-left" data-aos-delay="100">
+          <img src="images/moses.jpg" alt="Moses Kiprotich">
+          <h4>Moses Kiprotich</h4>
+          <p class="role">Co-Founder & CTO</p>
+          <p>Moses oversees Technova’s technical operations, specializing in systems engineering, cybersecurity, and automation. He ensures that every solution is secure, scalable, and impactful.</p>
+        </div>
+
+        <!-- Fatima -->
+        <div class="swiper-slide team-member" data-aos="flip-left" data-aos-delay="200">
+          <img src="images/fatima.jpg" alt="Fatima Ouma">
+          <h4>Fatima Ouma</h4>
+          <p class="role">Head of Delivery</p>
+          <p>Fatima leads project management and client success. She brings strong organizational leadership and ensures timely delivery of every Technova project with high quality.</p>
+        </div>
+
+        <!-- Aisha -->
+        <div class="swiper-slide team-member" data-aos="flip-left" data-aos-delay="300">
+          <img src="images/aisha.jpg" alt="Aisha Kamene">
+          <h4>Aisha Kamene</h4>
+          <p class="role">Community & Operations</p>
+          <p>Aisha coordinates partnerships and manages company operations. She bridges our technical and client relations teams to foster long-term collaboration.</p>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+
+</main>
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h3>About Technova</h3>
+        <p><strong>Technova</strong> is a business technology firm offering web development, cybersecurity, networking and digital marketing services to organizations and SMEs. We build, secure and grow digital products with measurable ROI.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="company-profile.html">Company Profile</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-resources">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><strong>Email:</strong> <a href="mailto:info@technova.org">info@technova.org</a></p>
+        <p><strong>Phone:</strong> +254 700 000 000</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <div class="left"><p>© <span id="year"></span> Technova. All rights reserved.</p></div>
+      <div class="right"><a href="terms.html">Terms</a> <a href="privacy.html">Privacy</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+  var teamSwiper = new Swiper('.team-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    pagination: { el: '.swiper-pagination', clickable: true },
+    autoplay: { delay: 4000 },
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    }
+  });
+</script>
+
+<button id="scrollTopBtn" class="scroll-top" aria-label="Scroll to top">↑</button>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
